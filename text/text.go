@@ -56,7 +56,9 @@ func drawGlyph(dst *ebiten.Image, face font.Face, r rune, img *ebiten.Image, x, 
 	op := &ebiten.DrawRectShaderOptions{}
 	op.GeoM.Translate(float64((x+b.Min.X)>>6), float64((y+b.Min.Y)>>6))
 	op.Images[0] = img
-	op.Uniforms["ColorM"] = clr
+	op.Uniforms = map[string]interface{}{
+		"ColorM": clr,
+	}
 	width, height := dst.Size()
 	dst.DrawRectShader(width, height, shader, op)
 }
