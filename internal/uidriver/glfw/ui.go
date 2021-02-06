@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/devicescale"
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
-	"github.com/hajimehoshi/ebiten/v2/internal/hooks"
-	"github.com/hajimehoshi/ebiten/v2/internal/thread"
+	"github.com/arcln/ebiten/internal/devicescale"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/glfw"
+	"github.com/arcln/ebiten/internal/hooks"
+	"github.com/arcln/ebiten/internal/thread"
 )
 
 type UserInterface struct {

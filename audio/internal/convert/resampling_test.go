@@ -20,7 +20,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten/v2/audio/internal/convert"
+	. "github.com/arcln/ebiten/audio/internal/convert"
 )
 
 func soundAt(timeInSecond float64) float64 {

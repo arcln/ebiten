@@ -19,7 +19,7 @@ package ebitenmobileview
 import (
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
+	"github.com/arcln/ebiten/internal/driver"
 )
 
 // #cgo CFLAGS: -x objective-c

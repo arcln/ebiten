@@ -18,12 +18,12 @@ import (
 	"syscall/js"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/devicescale"
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/opengl"
-	"github.com/hajimehoshi/ebiten/v2/internal/hooks"
-	"github.com/hajimehoshi/ebiten/v2/internal/jsutil"
-	"github.com/hajimehoshi/ebiten/v2/internal/restorable"
+	"github.com/arcln/ebiten/internal/devicescale"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/graphicsdriver/opengl"
+	"github.com/arcln/ebiten/internal/hooks"
+	"github.com/arcln/ebiten/internal/jsutil"
+	"github.com/arcln/ebiten/internal/restorable"
 )
 
 type UserInterface struct {

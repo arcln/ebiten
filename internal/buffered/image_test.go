@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/arcln/ebiten"
 )
 
 var mainCh = make(chan func())

@@ -20,7 +20,7 @@ package glfw
 import (
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
+	"github.com/arcln/ebiten/internal/glfw"
 )
 
 // fromGLFWMonitorPixel must be called from the main thread.

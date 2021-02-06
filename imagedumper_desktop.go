@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/shareable"
+	"github.com/arcln/ebiten/internal/shareable"
 )
 
 // availableFilename returns a filename that is valid as a new file or directory.

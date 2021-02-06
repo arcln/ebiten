@@ -25,9 +25,9 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/fonts"
-	"github.com/hajimehoshi/ebiten/v2/text"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/examples/resources/fonts"
+	"github.com/arcln/ebiten/text"
 )
 
 var (

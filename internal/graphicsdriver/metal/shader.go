@@ -19,10 +19,10 @@ package metal
 import (
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver/metal/mtl"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir/metal"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/graphicsdriver/metal/mtl"
+	"github.com/arcln/ebiten/internal/shaderir"
+	"github.com/arcln/ebiten/internal/shaderir/metal"
 )
 
 type Shader struct {

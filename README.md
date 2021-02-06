@@ -1,6 +1,6 @@
 # Ebiten (v2)
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/hajimehoshi/ebiten/v2)](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/arcln/ebiten)](https://pkg.go.dev/github.com/arcln/ebiten)
 [![Build Status](https://github.com/hajimehoshi/ebiten/workflows/test/badge.svg)](https://github.com/hajimehoshi/ebiten/actions?query=workflow%3Atest)
 [![Build Status](https://travis-ci.org/hajimehoshi/ebiten.svg?branch=master)](https://travis-ci.org/hajimehoshi/ebiten)
 [![Go Report Card](https://goreportcard.com/badge/github.com/hajimehoshi/ebiten)](https://goreportcard.com/report/github.com/hajimehoshi/ebiten)
@@ -10,7 +10,7 @@
 Ebiten is an open source game library for the Go programming language. Ebiten's simple API allows you to quickly and easily develop 2D games that can be deployed across multiple platforms.
 
 * [Website (ebiten.org)](https://ebiten.org)
-* [API Reference](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)
+* [API Reference](https://pkg.go.dev/github.com/arcln/ebiten)
 * [Cheat Sheet](https://ebiten.org/documents/cheatsheet.html)
 
 ![Overview](https://ebiten.org/images/overview2.0.png)
@@ -37,15 +37,15 @@ For installation on desktops, see [the installation instruction](https://ebiten.
 
 ## Packages
 
-* [ebiten](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2)
-  * [audio](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2/audio)
-    * [mp3](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2/audio/mp3)
-    * [vorbis](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2/audio/vorbis)
-    * [wav](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2/audio/wav)
-  * [ebitenutil](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2/ebitenutil)
-  * [inpututil](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2/inpututil)
-  * [mobile](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2/mobile)
-  * [text](https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2/text)
+* [ebiten](https://pkg.go.dev/github.com/arcln/ebiten)
+  * [audio](https://pkg.go.dev/github.com/arcln/ebiten/audio)
+    * [mp3](https://pkg.go.dev/github.com/arcln/ebiten/audio/mp3)
+    * [vorbis](https://pkg.go.dev/github.com/arcln/ebiten/audio/vorbis)
+    * [wav](https://pkg.go.dev/github.com/arcln/ebiten/audio/wav)
+  * [ebitenutil](https://pkg.go.dev/github.com/arcln/ebiten/ebitenutil)
+  * [inpututil](https://pkg.go.dev/github.com/arcln/ebiten/inpututil)
+  * [mobile](https://pkg.go.dev/github.com/arcln/ebiten/mobile)
+  * [text](https://pkg.go.dev/github.com/arcln/ebiten/text)
 
 ## Community
 

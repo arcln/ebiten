@@ -32,8 +32,8 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/text"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/text"
 )
 
 const (
@@ -282,7 +282,7 @@ package keyboard
 import (
 	"image"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/arcln/ebiten"
 )
 
 var keyboardKeyRects = map[ebiten.Key]image.Rectangle{}

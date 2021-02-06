@@ -19,7 +19,7 @@ import (
 	"go/ast"
 	gconstant "go/constant"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/arcln/ebiten/internal/shaderir"
 )
 
 func (cs *compileState) parseType(block *block, expr ast.Expr) (shaderir.Type, bool) {

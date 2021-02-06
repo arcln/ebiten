@@ -347,7 +347,7 @@ package {{.Package}}
 import (
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
+	"github.com/arcln/ebiten/internal/driver"
 )
 
 func convertCh(driverCh chan driver.Event) (chan Event) {

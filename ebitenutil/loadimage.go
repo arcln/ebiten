@@ -21,7 +21,7 @@ package ebitenutil
 import (
 	"image"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/arcln/ebiten"
 )
 
 // NewImageFromFile loads the file with path and returns ebiten.Image and image.Image.

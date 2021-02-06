@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/arcln/ebiten/internal/shaderir"
 )
 
 const FragmentPrelude = `#if defined(GL_ES)

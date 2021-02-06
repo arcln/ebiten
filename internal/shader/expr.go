@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/arcln/ebiten/internal/shaderir"
 )
 
 func canTruncateToInteger(v gconstant.Value) bool {

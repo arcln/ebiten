@@ -20,12 +20,12 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/affine"
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/hooks"
-	"github.com/hajimehoshi/ebiten/v2/internal/packing"
-	"github.com/hajimehoshi/ebiten/v2/internal/restorable"
+	"github.com/arcln/ebiten/internal/affine"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/graphics"
+	"github.com/arcln/ebiten/internal/hooks"
+	"github.com/arcln/ebiten/internal/packing"
+	"github.com/arcln/ebiten/internal/restorable"
 )
 
 const (

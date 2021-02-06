@@ -22,8 +22,8 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/glfw"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/glfw"
 )
 
 type gamePad struct {

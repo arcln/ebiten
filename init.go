@@ -15,9 +15,9 @@
 package ebiten
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/graphicscommand"
-	"github.com/hajimehoshi/ebiten/v2/internal/mipmap"
-	"github.com/hajimehoshi/ebiten/v2/internal/shareable"
+	"github.com/arcln/ebiten/internal/graphicscommand"
+	"github.com/arcln/ebiten/internal/mipmap"
+	"github.com/arcln/ebiten/internal/shareable"
 )
 
 var _ = __EBITEN_REQUIRES_GO_VERSION_1_12_OR_LATER__

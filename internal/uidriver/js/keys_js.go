@@ -17,7 +17,7 @@
 package js
 
 import (
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
+	"github.com/arcln/ebiten/internal/driver"
 )
 
 var driverKeyToJSKey = map[driver.Key]string{

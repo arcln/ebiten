@@ -21,8 +21,8 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/ebitenutil"
 )
 
 var pointerImage = ebiten.NewImage(4, 4)

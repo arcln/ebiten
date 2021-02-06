@@ -17,8 +17,8 @@ package ebiten
 import (
 	"sync/atomic"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/clock"
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
+	"github.com/arcln/ebiten/internal/clock"
+	"github.com/arcln/ebiten/internal/driver"
 )
 
 // Game defines necessary functions for a game.
@@ -181,7 +181,7 @@ func runGame(game Game, scale float64) error {
 // Different from Run, RunGameWithoutMainLoop returns immediately.
 //
 // Ebiten users should NOT call RunGameWithoutMainLoop.
-// Instead, functions in github.com/hajimehoshi/ebiten/v2/mobile package calls this.
+// Instead, functions in github.com/arcln/ebiten/mobile package calls this.
 func RunGameWithoutMainLoop(game Game) {
 	fixWindowPosition(WindowSize())
 	game = &imageDumperGameWithDraw{

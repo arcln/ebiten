@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"syscall/js"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/jsutil"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
-	"github.com/hajimehoshi/ebiten/v2/internal/web"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/jsutil"
+	"github.com/arcln/ebiten/internal/shaderir"
+	"github.com/arcln/ebiten/internal/web"
 )
 
 type (

@@ -21,8 +21,8 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/vector/internal/triangulate"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/vector/internal/triangulate"
 )
 
 var emptyImage = ebiten.NewImage(1, 1)

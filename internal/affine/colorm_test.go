@@ -19,7 +19,7 @@ import (
 	"math/rand"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten/v2/internal/affine"
+	. "github.com/arcln/ebiten/internal/affine"
 )
 
 func TestColorMScaleOnly(t *testing.T) {

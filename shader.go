@@ -21,10 +21,10 @@ import (
 	"go/token"
 	"strings"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/mipmap"
-	"github.com/hajimehoshi/ebiten/v2/internal/shader"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
+	"github.com/arcln/ebiten/internal/graphics"
+	"github.com/arcln/ebiten/internal/mipmap"
+	"github.com/arcln/ebiten/internal/shader"
+	"github.com/arcln/ebiten/internal/shaderir"
 )
 
 var shaderSuffix string

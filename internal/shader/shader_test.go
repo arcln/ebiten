@@ -24,9 +24,9 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten/v2/internal/shader"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir/glsl"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir/metal"
+	. "github.com/arcln/ebiten/internal/shader"
+	"github.com/arcln/ebiten/internal/shaderir/glsl"
+	"github.com/arcln/ebiten/internal/shaderir/metal"
 )
 
 func glslNormalize(str string) string {

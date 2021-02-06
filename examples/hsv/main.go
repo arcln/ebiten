@@ -24,10 +24,10 @@ import (
 	"log"
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/ebitenutil"
+	"github.com/arcln/ebiten/examples/resources/images"
+	"github.com/arcln/ebiten/inpututil"
 )
 
 const (

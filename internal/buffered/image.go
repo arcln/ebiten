@@ -19,11 +19,11 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/affine"
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
-	"github.com/hajimehoshi/ebiten/v2/internal/shareable"
+	"github.com/arcln/ebiten/internal/affine"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/graphics"
+	"github.com/arcln/ebiten/internal/shaderir"
+	"github.com/arcln/ebiten/internal/shareable"
 )
 
 type Image struct {

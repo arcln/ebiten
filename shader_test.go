@@ -19,7 +19,7 @@ import (
 	"image/color"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten/v2"
+	. "github.com/arcln/ebiten"
 )
 
 func TestShaderFill(t *testing.T) {

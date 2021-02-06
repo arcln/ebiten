@@ -18,10 +18,10 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	. "github.com/hajimehoshi/ebiten/v2/internal/graphicscommand"
-	etesting "github.com/hajimehoshi/ebiten/v2/internal/testing"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/graphics"
+	. "github.com/arcln/ebiten/internal/graphicscommand"
+	etesting "github.com/arcln/ebiten/internal/testing"
 )
 
 func TestMain(m *testing.M) {

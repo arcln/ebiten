@@ -17,10 +17,10 @@ package driver
 import (
 	"errors"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/affine"
-	"github.com/hajimehoshi/ebiten/v2/internal/graphics"
-	"github.com/hajimehoshi/ebiten/v2/internal/shaderir"
-	"github.com/hajimehoshi/ebiten/v2/internal/thread"
+	"github.com/arcln/ebiten/internal/affine"
+	"github.com/arcln/ebiten/internal/graphics"
+	"github.com/arcln/ebiten/internal/shaderir"
+	"github.com/arcln/ebiten/internal/thread"
 )
 
 type Region struct {

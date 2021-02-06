@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
-	"github.com/hajimehoshi/ebiten/v2/internal/thread"
+	"github.com/arcln/ebiten/internal/driver"
+	"github.com/arcln/ebiten/internal/thread"
 )
 
 func convertOperation(op driver.Operation) operation {

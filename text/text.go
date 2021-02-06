@@ -26,8 +26,8 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/internal/colormcache"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/internal/colormcache"
 )
 
 var (

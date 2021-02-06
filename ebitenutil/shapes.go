@@ -18,8 +18,8 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/internal/colormcache"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/internal/colormcache"
 )
 
 var (

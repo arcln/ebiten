@@ -22,8 +22,8 @@ package main
 import (
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/inpututil"
 )
 
 const (

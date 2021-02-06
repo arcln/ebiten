@@ -18,7 +18,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/arcln/ebiten"
 )
 
 func init() {

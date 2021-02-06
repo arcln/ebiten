@@ -28,10 +28,10 @@ import (
 	"golang.org/x/image/font/gofont/goregular"
 	"golang.org/x/image/font/opentype"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/images"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/text"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/examples/resources/images"
+	"github.com/arcln/ebiten/inpututil"
+	"github.com/arcln/ebiten/text"
 )
 
 const (

@@ -22,11 +22,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/audio/vorbis"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	raudio "github.com/hajimehoshi/ebiten/v2/examples/resources/audio"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/audio"
+	"github.com/arcln/ebiten/audio/vorbis"
+	"github.com/arcln/ebiten/ebitenutil"
+	raudio "github.com/arcln/ebiten/examples/resources/audio"
 )
 
 const (

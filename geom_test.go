@@ -19,7 +19,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten/v2"
+	. "github.com/arcln/ebiten"
 )
 
 func TestGeoMInit(t *testing.T) {

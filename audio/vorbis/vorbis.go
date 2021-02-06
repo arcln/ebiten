@@ -21,8 +21,8 @@ import (
 
 	"github.com/jfreymuth/oggvorbis"
 
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/audio/internal/convert"
+	"github.com/arcln/ebiten/audio"
+	"github.com/arcln/ebiten/audio/internal/convert"
 )
 
 // Stream is a decoded audio stream.

@@ -39,7 +39,7 @@ You don't have to update existing files' license comments.
 // +build example
 ```
 
-`example` is to prevent from installing executions by `go get github.com/hajimehoshi/ebiten/v2/...`.
+`example` is to prevent from installing executions by `go get github.com/arcln/ebiten/...`.
 
 ## Documentation
 

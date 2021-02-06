@@ -30,16 +30,16 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/opentype"
 
-	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	"github.com/hajimehoshi/ebiten/v2/audio/vorbis"
-	"github.com/hajimehoshi/ebiten/v2/audio/wav"
-	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	raudio "github.com/hajimehoshi/ebiten/v2/examples/resources/audio"
-	"github.com/hajimehoshi/ebiten/v2/examples/resources/fonts"
-	resources "github.com/hajimehoshi/ebiten/v2/examples/resources/images/flappy"
-	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/hajimehoshi/ebiten/v2/text"
+	"github.com/arcln/ebiten"
+	"github.com/arcln/ebiten/audio"
+	"github.com/arcln/ebiten/audio/vorbis"
+	"github.com/arcln/ebiten/audio/wav"
+	"github.com/arcln/ebiten/ebitenutil"
+	raudio "github.com/arcln/ebiten/examples/resources/audio"
+	"github.com/arcln/ebiten/examples/resources/fonts"
+	resources "github.com/arcln/ebiten/examples/resources/images/flappy"
+	"github.com/arcln/ebiten/inpututil"
+	"github.com/arcln/ebiten/text"
 )
 
 func init() {

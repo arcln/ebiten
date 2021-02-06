@@ -19,7 +19,7 @@ package mobile
 import (
 	"golang.org/x/mobile/event/key"
 
-	"github.com/hajimehoshi/ebiten/v2/internal/driver"
+	"github.com/arcln/ebiten/internal/driver"
 )
 
 var gbuildKeyToDriverKey = map[key.Code]driver.Key{

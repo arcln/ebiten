@@ -20,8 +20,8 @@ import (
 
 	"github.com/jfreymuth/oggvorbis"
 
-	"github.com/hajimehoshi/ebiten/v2/audio"
-	. "github.com/hajimehoshi/ebiten/v2/audio/vorbis"
+	"github.com/arcln/ebiten/audio"
+	. "github.com/arcln/ebiten/audio/vorbis"
 )
 
 var audioContext = audio.NewContext(44100)
