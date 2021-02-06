@@ -47,17 +47,18 @@ const (
 	cacheLimit = 512 // This is an arbitrary number.
 )
 
-func drawGlyph(dst *ebiten.Image, face font.Face, r rune, img *ebiten.Image, x, y fixed.Int26_6, clr ebiten.ColorM, opcb func(op *ebiten.DrawImageOptions)) {
+func drawGlyph(dst *ebiten.Image, face font.Face, r rune, img *ebiten.Image, x, y fixed.Int26_6, clr ebiten.ColorM, shader *ebiten.Shader) {
 	if img == nil {
 		return
 	}
 
 	b := getGlyphBounds(face, r)
-	op := &ebiten.DrawImageOptions{}
-	opcb(op)
+	op := &ebiten.DrawRectShaderOptions{}
 	op.GeoM.Translate(float64((x+b.Min.X)>>6), float64((y+b.Min.Y)>>6))
-	op.ColorM = clr
-	dst.DrawImage(img, op)
+	op.Images[0] = img
+	op.Uniforms["ColorM"] = clr
+	width, height := dst.Size()
+	dst.DrawRectShader(width, height, shader, op)
 }
 
 var (
@@ -194,7 +195,7 @@ var textM sync.Mutex
 // This is a known issue (#498).
 //
 // Draw is concurrent-safe.
-func Draw(dst *ebiten.Image, text string, face font.Face, x, y int, clr color.Color, op func(op *ebiten.DrawImageOptions)) {
+func Draw(dst *ebiten.Image, text string, face font.Face, x, y int, clr color.Color, shader *ebiten.Shader) {
 	textM.Lock()
 	defer textM.Unlock()
 
@@ -218,7 +219,7 @@ func Draw(dst *ebiten.Image, text string, face font.Face, x, y int, clr color.Co
 			continue
 		}
 
-		drawGlyph(dst, face, r, glyphImgs[i], fx, fy, colorm, op)
+		drawGlyph(dst, face, r, glyphImgs[i], fx, fy, colorm, shader)
 		fx += GlyphAdvance(face, r)
 
 		prevR = r
