@@ -192,7 +192,7 @@ func Draw(dst *ebiten.Image, text string, face font.Face, x, y int, clr color.Co
 
 		img := getGlyphImage(face, r)
 		drawGlyph(dst, face, r, img, fx, fy, colorm)
-		fx += glyphAdvance(face, r)
+		fx += GlyphAdvance(face, r)
 
 		prevR = r
 	}
@@ -258,7 +258,7 @@ func BoundString(face font.Face, text string) image.Rectangle {
 		b.Max.Y += fy
 		bounds = bounds.Union(b)
 
-		fx += glyphAdvance(face, r)
+		fx += GlyphAdvance(face, r)
 		prevR = r
 	}
 

@@ -21,7 +21,7 @@ import (
 
 var glyphAdvanceCache = map[font.Face]map[rune]fixed.Int26_6{}
 
-func glyphAdvance(face font.Face, r rune) fixed.Int26_6 {
+func GlyphAdvance(face font.Face, r rune) fixed.Int26_6 {
 	m, ok := glyphAdvanceCache[face]
 	if !ok {
 		m = map[rune]fixed.Int26_6{}
